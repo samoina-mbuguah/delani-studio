@@ -1,0 +1,22 @@
+.bg-image {
+  background-image: url('/images/background/header.jpg');
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white; 
+}
+
+.bg-image #mouse {
+  position: absolute;
+  bottom: 1%;
+}
+
+.top-section {
+  font-weight: bolder;
+}
+
