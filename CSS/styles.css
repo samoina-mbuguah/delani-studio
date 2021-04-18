@@ -20,3 +20,25 @@
   font-weight: bolder;
 }
 
+#about-us {
+  text-align: center;
+  /* padding: 10px; */
+  font-weight: bold;
+}
+
+#services {
+  background-image: url('/images/background/services.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  position:relative;
+  height:100vh;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white; 
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
