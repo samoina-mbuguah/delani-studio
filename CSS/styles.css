@@ -52,6 +52,10 @@ img {
   text-align: center;
 }
 
+#contact .header {
+  color: #fff;
+}
+
 .col-sm-3 .text-box {
   display: block;
   left: 0;
@@ -91,5 +95,16 @@ input[type=text], textarea {
   flex-direction: column;
   justify-content: center;
   border: solid white 2px;
-  color: #fff;
+  color: black;
+}
+/* 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+} */
+
 }
