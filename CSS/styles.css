@@ -76,11 +76,15 @@ img {
   background-color: white;
 }
 
-.col-sm-3 .text-box {
+.trial {
+  margin: solid aqua;
+}
+
+.text-box {
   display: block;
   left: 0;
   top: 0;
-  height: 94%;
+  height: 100%;
   position: absolute;
   margin: 0 auto;
   left: 50;
@@ -88,7 +92,6 @@ img {
   background-color: rgba(0,0,0,.7);
   color: #fff;
   font-size: x-large;
-  box-sizing: border-box;
 }
 
 input[type=text], textarea {
