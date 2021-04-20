@@ -1,3 +1,5 @@
+//User-interface
+
 $(document).ready(function () {
   $(".bg-image").hover(function () {
     $(".bg-image").addClass("top-section");
@@ -137,6 +139,8 @@ $(document).ready(function () {
   //   });
 
   //   });
+
+  // Business Logic
 
   $("div.alert").hide();
 
