@@ -22,17 +22,16 @@
 
 #about-us {
   text-align: center;
-  /* padding: 10px; */
+  padding: 30px;
   font-weight: bold;
 }
 
 #services {
   background-image: url('/images/background/services.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position:center;
   position:relative;
-  height:100vh;
+  height:45vh;
   display:flex;
   align-items: center;
   flex-direction: column;
@@ -43,6 +42,15 @@
   font-weight: bold;
 }
 
+#what-we-do {
+  padding: 20px;
+}
+
+#design, #development, #product {
+  display: none;
+  text-align: center;
+}
+
 img {
   margin: 0 auto;
   margin-bottom: 15px;
@@ -50,23 +58,33 @@ img {
 
 .header {
   text-align: center;
+  padding: 20px;
 }
 
 #contact .header {
   color: #fff;
 }
 
+.text {
+  color: black;
+  position: absolute;
+  top: 50%;
+  font-family: Arial, Verdana;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 3px;
+  background-color: white;
+}
+
 .col-sm-3 .text-box {
   display: block;
   left: 0;
   top: 0;
-  width: 90%;
   height: 94%;
   position: absolute;
   margin: 0 auto;
   left: 50;
   right: 0;
-  width: 90%; 
   background-color: rgba(0,0,0,.7);
   color: #fff;
   font-size: x-large;
@@ -97,14 +115,8 @@ input[type=text], textarea {
   border: solid white 2px;
   color: black;
 }
-/* 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-} */
 
+.footer {
+  text-align: center;
+  padding: 20px
 }
