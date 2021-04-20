@@ -65,7 +65,7 @@ img {
   color: #fff;
 }
 
-.text {
+#blackie-text, #ontario-text, #orange-text, #jim-carrey-text, #elena-text, #wordpress-text, #burned-logo-text, #giraffe-text {
   color: black;
   position: absolute;
   top: 50%;
