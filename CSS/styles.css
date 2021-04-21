@@ -27,7 +27,7 @@
 }
 
 #services {
-  background-image: url('/images/background/services.jpg');
+  background-image: url('../images/background/services.jpg');
   background-size: cover;
   background-position:center;
   position:relative;
@@ -104,7 +104,7 @@ input[type=text], textarea {
 }
 
 #contact {
-  background-image: url("/images/background/contact-us.jpg");
+  background-image: url("../images/background/contact-us.jpg");
   background-size:cover;
   background-position:center;
   position:relative;
