@@ -145,8 +145,8 @@ $(document).ready(function () {
   $("div.alert").hide();
 
   $("#contact .contact-form").submit(function (event) {
-    let name = $("#YourName").val();
-    let email = $("#YourEmail").val();
+    let name = $("#mce-NAME").val();
+    let email = $("#mce-EMAIL").val();
 
     $("#userName").text(name);
 
