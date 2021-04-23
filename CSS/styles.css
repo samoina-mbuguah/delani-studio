@@ -110,7 +110,6 @@ input[type=text], textarea {
   position:relative;
   height:80vh;
   display:flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
   border: solid white 2px;

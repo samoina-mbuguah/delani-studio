@@ -142,18 +142,18 @@ $(document).ready(function () {
 
   // Business Logic
 
-  $("div.alert").hide();
+  // $("div.alert").hide();
 
-  $("#contact .contact-form").submit(function (event) {
-    let name = $("#mce-NAME").val();
-    let email = $("#mce-EMAIL").val();
+  // $("#contact .contact-form").submit(function (event) {
+  //   let name = $("#mce-NAME").val();
+  //   let email = $("#mce-EMAIL").val();
 
-    $("#userName").text(name);
+  //   $("#userName").text(name);
 
-    $("div.alert").show();
+  //   $("div.alert").show();
 
-    event.preventDefault();
-  });
+  //   event.preventDefault();
+  // });
 
 
 });
